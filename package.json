@@ -1,0 +1,15 @@
+{
+  "name": "d-doc",
+  "version": "1.0.0",
+  "description": "只有两行代码的命令行工具, 用于在默认浏览器中快速打开package在npm中的文档",
+  "main": "index.js",
+  "bin": {
+    "doc": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
