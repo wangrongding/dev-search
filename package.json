@@ -1,6 +1,6 @@
 {
   "name": "ding-doc",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "只有两行代码的命令行工具, 用于在默认浏览器中快速打开package在npm中的文档",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,25 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "npm",
+    "cli",
+    "terminal",
+    "package"
+  ],
+  "author": {
+    "name": "wangrongding",
+    "email": "wangrongding@qq.com",
+    "url": "https://www.fedtop.com/"
+  },
+  "homepage": "https://github.com/wangrongding/ding-doc/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangrongding/ding-doc.git"
+  },
+  "bugs": "https://github.com/wangrongding/ding-doc/issues",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^8.4.0"
+  }
 }
