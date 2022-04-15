@@ -28,6 +28,8 @@
   "bugs": "https://github.com/wangrongding/ding-doc/issues",
   "license": "ISC",
   "dependencies": {
+    "commander": "^9.1.0",
+    "inquirer": "^8.2.2",
     "open": "^8.4.0"
   }
 }
