@@ -1,10 +1,10 @@
 {
-  "name": "ding-doc",
-  "version": "1.0.4",
-  "description": "只有两行代码的命令行工具, 用于在默认浏览器中快速打开package在npm中的文档",
+  "name": "dev-search",
+  "version": "0.0.2",
+  "description": "在命令行中快速搜索你想要的！",
   "main": "index.js",
   "bin": {
-    "doc": "index.js"
+    "ds": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,8 +28,10 @@
   "bugs": "https://github.com/wangrongding/ding-doc/issues",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "commander": "^9.1.0",
     "inquirer": "^8.2.2",
-    "open": "^8.4.0"
+    "open": "^8.4.0",
+    "say": "^0.16.0"
   }
 }
