@@ -1,6 +1,6 @@
 {
   "name": "dev-search",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "在命令行中快速搜索你想要的！",
   "main": "index.js",
   "bin": {
@@ -20,12 +20,12 @@
     "email": "wangrongding@qq.com",
     "url": "https://www.fedtop.com/"
   },
-  "homepage": "https://github.com/wangrongding/ding-doc/",
+  "homepage": "https://github.com/wangrongding/dev-search/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wangrongding/ding-doc.git"
+    "url": "https://github.com/wangrongding/dev-search.git"
   },
-  "bugs": "https://github.com/wangrongding/ding-doc/issues",
+  "bugs": "https://github.com/wangrongding/dev-search/issues",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
