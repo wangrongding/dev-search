@@ -11,6 +11,8 @@ module.exports = function search(key) {
     { name: "Npm", value: "https://www.npmjs.com/search?q=" },
     { name: "StackOverflow", value: "https://stackoverflow.com/search?q=" },
     new inquirer.Separator("========其他======="),
+    { name: "Eslint", value: "https://eslint.cn/docs/rules/" },
+    { name: "typescript-eslint", value: "https://typescript-eslint.io/rules/" },
     { name: "Zhihu", value: "https://www.zhihu.com/search?type=content&q=" },
     { name: "Bilibili", value: "https://search.bilibili.com/all?keyword=" },
     { name: "Juejin", value: "https://juejin.im/search?query=" },
