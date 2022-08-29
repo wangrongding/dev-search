@@ -1,6 +1,6 @@
 {
   "name": "dev-search",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "在命令行中快速搜索你想要的！",
   "main": "index.js",
   "bin": {

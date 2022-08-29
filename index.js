@@ -12,22 +12,21 @@ const program = new Command();
 program
   // .argument("[type]", "search content")
   .version(version, "-v, --version")
-  // option用于添加参数
-  .option("-m, --map", "open map of Baidu")
-  .option("-d, --doc", "open docs List")
-  .option("-s, --search <content>", "Search something");
+  .argument("[content]", "Search something")
+  .action((content) => {
+    content && search(content);
+  });
+// option用于添加参数
+
+program
+  .option("-m, --map", "open map of Baidu", map)
+  .option("-d, --doc", "open docs List", docs)
+  .option("-s, --search <content>", "Search something", search);
 
 // parse()方法会解析命令行参数，并将其存储在Command的args属性中
 program.parse(process.argv);
 // opts()用于获取命令行参数
 const options = program.opts();
-console.log("🚀", options);
-if (options.map) {
-  map();
-} else if (options.doc) {
-  docs();
-} else if (options.search) {
-  search(options.search);
-} else if (!process.argv.slice(2).length) {
+if (!process.argv.slice(2).length) {
   program.help();
 }
