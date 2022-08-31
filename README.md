@@ -1,23 +1,26 @@
 # dev-search
 
-Do a quick search on the command line for what you want!
+Quickly search for what you want from the command line!
+
 在命令行中快速搜索你想要的！
 
-## 安装 | install
+## Install （安装）
 
 ```sh
 npm i dev-search -g
 ```
 
-## 使用 | usage
+## Usage（使用）
 
-快速搜索问题/东西
+Quickly search for something.
+
+迅速搜索一些东西。
 
 ```sh
-ds -s <content>
+ds <content>
 ```
 
-![](https://assets.fedtop.com/picbed/temp1.gif)
+![](https://assets.fedtop.com/picbed/202208311621730.gif)
 
 快速打开文档
 
