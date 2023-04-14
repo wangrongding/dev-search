@@ -1,6 +1,10 @@
 const inquirer = require('inquirer')
 module.exports = [
   {
+    name: 'dev-search',
+    value: 'https://github.com/wangrongding/dev-search#readme',
+  },
+  {
     name: 'Prettier',
     value: 'https://prettier.io/docs/en/index.html',
   },
