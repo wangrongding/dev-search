@@ -19,9 +19,9 @@ program
 // option用于添加参数
 
 program
-  .option("-m, --map", "open map of Baidu", map)
+  .option("-s, --search <content>", "Search something", search)
   .option("-d, --doc", "open docs List", docs)
-  .option("-s, --search <content>", "Search something", search);
+  .option("-m, --map", "open map of Baidu", map);
 
 // parse()方法会解析命令行参数，并将其存储在Command的args属性中
 program.parse(process.argv);
