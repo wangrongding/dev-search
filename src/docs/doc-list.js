@@ -5,10 +5,6 @@ module.exports = [
     value: 'https://github.com/wangrongding/dev-search#readme',
   },
   {
-    name: 'Prettier',
-    value: 'https://prettier.io/docs/en/index.html',
-  },
-  {
     name: 'Vue3',
     value: 'https://staging-cn.vuejs.org/guide/introduction.html',
   },
@@ -20,6 +16,7 @@ module.exports = [
     name: 'Angular',
     value: 'https://angular.cn/start',
   },
+  new inquirer.Separator('==============='),
   {
     name: 'Element-Plus',
     value: 'https://element-plus.gitee.io/zh-CN/component/button.html',
@@ -32,6 +29,7 @@ module.exports = [
     name: 'Echarts',
     value: 'https://echarts.apache.org/zh/index.html',
   },
+  new inquirer.Separator('==============='),
   {
     name: 'Webpack',
     value: 'https://www.webpackjs.com/concepts/',
@@ -48,6 +46,7 @@ module.exports = [
     name: 'Babel',
     value: 'https://babel.docschina.org/',
   },
+  new inquirer.Separator('==============='),
   {
     name: 'Axios',
     value: 'https://www.axios-http.cn/docs/intro',
@@ -56,6 +55,7 @@ module.exports = [
     name: 'Lodash',
     value: 'https://www.lodashjs.com/',
   },
+  new inquirer.Separator('==============='),
   {
     name: 'Pinia',
     value: 'https://pinia.web3doc.top/introduction.html',
@@ -120,4 +120,9 @@ module.exports = [
     name: '印记中文',
     value: 'https://docschina.org/',
   },
+  {
+    name: 'Prettier',
+    value: 'https://prettier.io/docs/en/index.html',
+  },
+  new inquirer.Separator('==============='),
 ]
