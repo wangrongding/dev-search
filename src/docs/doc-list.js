@@ -43,6 +43,10 @@ module.exports = [
     value: 'https://www.rollupjs.com/',
   },
   {
+    name: 'Rollup-CN',
+    value: 'https://cn.rollupjs.org/',
+  },
+  {
     name: 'Babel',
     value: 'https://babel.docschina.org/',
   },
@@ -56,6 +60,18 @@ module.exports = [
     value: 'https://www.lodashjs.com/',
   },
   new inquirer.Separator('==============='),
+  {
+    name: 'fabric',
+    value: 'http://fabricjs.com/docs/',
+  },
+  {
+    name: 'Wechaty',
+    value: 'https://wechaty.js.org/docs/',
+  },
+  {
+    name: 'Wechaty-zh',
+    value: 'https://wechaty.gitbook.io/wechaty/v/zh',
+  },
   {
     name: 'Pinia',
     value: 'https://pinia.web3doc.top/introduction.html',
