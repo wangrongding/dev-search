@@ -20,7 +20,7 @@ Quickly search for something.
 ds <content>
 ```
 
-![](https://assets.fedtop.com/picbed/202208311621730.gif)
+![](images/202208311621730.gif)
 
 快速打开文档
 
@@ -28,7 +28,7 @@ ds <content>
 ds -d
 ```
 
-![](https://assets.fedtop.com/picbed/temp2.gif)
+![](images/temp2.gif)
 
 快速打开地图
 
@@ -36,11 +36,11 @@ ds -d
 ds -m
 ```
 
-![](https://assets.fedtop.com/picbed/temp3.gif)
+![](images/temp3.gif)
 
 ## 查看帮助
 
-![](https://assets.fedtop.com/picbed/20220609165612.png)
+![](images/20220609165612.png)
 
 节约时间，高效快速。
 
