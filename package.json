@@ -1,6 +1,6 @@
 {
   "name": "dev-search",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Quickly search for what you want from the command line!",
   "main": "index.js",
   "bin": {
