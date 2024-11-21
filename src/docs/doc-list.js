@@ -90,7 +90,7 @@ module.exports = [
   },
   {
     name: 'TailwindCSS',
-    value: 'https://www.tailwindcss.cn/docs',
+    value: 'https://www.tailwindcss.cn/docs/installation',
   },
   {
     name: 'Eslint',
